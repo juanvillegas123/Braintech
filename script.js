@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     animateRings();
 
-    // 2. Scroll Reveal (Transiciones Profesionales)
+    // 2. Scroll Reveal (Transiciones)
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
